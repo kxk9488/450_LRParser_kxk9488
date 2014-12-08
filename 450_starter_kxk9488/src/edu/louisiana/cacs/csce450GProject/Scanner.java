@@ -36,10 +36,11 @@ public class Scanner {
 		try
 		{
 			try{
-				inputStream = new FileReader(System.getProperty("user.dir")+"\\data\\"+filePath);
+				//inputStream = new FileReader(System.getProperty("user.dir")+"\\data\\"+filePath);
+				inputStream = new FileReader(filePath);
 			}
 			catch(FileNotFoundException e) {
-				inputStream = new FileReader(System.getProperty("user.dir")+"\\data\\"+"sample.txt");
+				inputStream = new FileReader(System.getProperty("user.dir")+"/data/"+"sample.txt");
 			}
 			getChar();
 			do

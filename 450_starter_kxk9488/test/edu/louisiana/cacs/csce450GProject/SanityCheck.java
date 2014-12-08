@@ -1,4 +1,4 @@
-package edu.louisiana.cacs.csce450Project;
+package edu.louisiana.cacs.csce450GProject;
 
 /*
  * This file is intended to provide instruction on how to create unit tests.
